@@ -1,5 +1,7 @@
 #############################################################################################################
 # To run: Right click "Run with powershell"
+# Note: You may have to do "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned" or "Set-ExecutionPolicy -ExecutionPolicy Unrestricted"
+# to get this to run.
 #
 # This tool will run itself as Administrator and give options to Move user folders from one profile to another
 # Included folders: Desktop
