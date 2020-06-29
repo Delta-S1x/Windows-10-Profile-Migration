@@ -111,7 +111,7 @@ public static extern bool ShowWindow(IntPtr hWnd, Int32 nCmdShow);
 
   $consolePtr = [Console.Window]::GetConsoleWindow()
     
-   # [Console.Window]::ShowWindow($consolePtr, 0)
+   [Console.Window]::ShowWindow($consolePtr, 0)
 ######################################################################    
 # Loading external assemblies
 Add-Type -AssemblyName System.Windows.Forms
